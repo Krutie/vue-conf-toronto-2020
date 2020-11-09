@@ -1,0 +1,39 @@
+/* Global page transition */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 1s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Fade transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Global layout transition */
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 1s;
+}
+.layout-enter,
+.layout-leave-to {
+  opacity: 0;
+}
+
+/* CSS Animation */
+.zoom-enter-active {
+  animation: zoomIn 0.5s;
+}
+
+.zoom-leave-active {
+  /*border-radius: 0;*/
+  animation: zoomOut 0.5s;
+}

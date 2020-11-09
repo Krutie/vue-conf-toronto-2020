@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.nuxt-link-exact-active {
+  font-weight: bold;
+}
+
+.toggle {
+  @apply px-4 py-2 mb-2 bg-gray-200 cursor-pointer;
+}
